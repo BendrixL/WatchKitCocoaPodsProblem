@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9477A34952153D0A7F42FE2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0026930E5938D2F760985F8 /* libPods.a */; };
+		F011E15E1B58518B00416A65 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F011E15D1B58518B00416A65 /* libPods.a */; };
+		F09160F11B585073002E0867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09160F01B585073002E0867 /* AppDelegate.swift */; };
+		F09160F31B585073002E0867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09160F21B585073002E0867 /* ViewController.swift */; };
+		F09160F61B585073002E0867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09160F41B585073002E0867 /* Main.storyboard */; };
+		F09160F81B585073002E0867 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09160F71B585073002E0867 /* Images.xcassets */; };
+		F09160FB1B585073002E0867 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F09160F91B585073002E0867 /* LaunchScreen.xib */; };
+		F09161071B585073002E0867 /* WatchKitCocoaPodsProblemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09161061B585073002E0867 /* WatchKitCocoaPodsProblemTests.swift */; };
+		F09161191B58508D002E0867 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09161181B58508D002E0867 /* InterfaceController.swift */; };
+		F091611B1B58508D002E0867 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F091611A1B58508D002E0867 /* Images.xcassets */; };
+		F091611F1B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = F091611E1B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit App.app */; };
+		F09161271B58508D002E0867 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09161251B58508D002E0867 /* Interface.storyboard */; };
+		F09161291B58508D002E0867 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09161281B58508D002E0867 /* Images.xcassets */; };
+		F091612C1B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F09161141B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F09161011B585073002E0867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09160E31B585073002E0867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09160EA1B585073002E0867;
+			remoteInfo = WatchKitCocoaPodsProblem;
+		};
+		F09161201B58508D002E0867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09160E31B585073002E0867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F091611D1B58508D002E0867;
+			remoteInfo = "WatchKitCocoaPodsProblem WatchKit App";
+		};
+		F091612A1B58508D002E0867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09160E31B585073002E0867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09161131B58508D002E0867;
+			remoteInfo = "WatchKitCocoaPodsProblem WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F09161331B58508D002E0867 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F091612C1B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		351B6F55AFBA713928423C35 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9A717E5281298DDC846E72F1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A0026930E5938D2F760985F8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F011E15D1B58518B00416A65 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		F09160EB1B585073002E0867 /* WatchKitCocoaPodsProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKitCocoaPodsProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09160EF1B585073002E0867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09160F01B585073002E0867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F09160F21B585073002E0867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F09160F51B585073002E0867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F09160F71B585073002E0867 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F09160FA1B585073002E0867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F09161001B585073002E0867 /* WatchKitCocoaPodsProblemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchKitCocoaPodsProblemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09161051B585073002E0867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09161061B585073002E0867 /* WatchKitCocoaPodsProblemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchKitCocoaPodsProblemTests.swift; sourceTree = "<group>"; };
+		F09161141B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchKitCocoaPodsProblem WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09161171B58508D002E0867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09161181B58508D002E0867 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F091611A1B58508D002E0867 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F091611E1B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchKitCocoaPodsProblem WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09161241B58508D002E0867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09161261B58508D002E0867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F09161281B58508D002E0867 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F09161341B5850A9002E0867 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F09161351B5850C0002E0867 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F09160E81B585073002E0867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9477A34952153D0A7F42FE2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09160FD1B585073002E0867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09161111B58508D002E0867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F011E15E1B58518B00416A65 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EC5AD5256D2696361593E24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				351B6F55AFBA713928423C35 /* Pods.debug.xcconfig */,
+				9A717E5281298DDC846E72F1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2E59E8C83BB97CF2825D664 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F011E15D1B58518B00416A65 /* libPods.a */,
+				A0026930E5938D2F760985F8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F09160E21B585073002E0867 = {
+			isa = PBXGroup;
+			children = (
+				F09160ED1B585073002E0867 /* WatchKitCocoaPodsProblem */,
+				F09161031B585073002E0867 /* WatchKitCocoaPodsProblemTests */,
+				F09161151B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit Extension */,
+				F09161221B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit App */,
+				F09160EC1B585073002E0867 /* Products */,
+				6EC5AD5256D2696361593E24 /* Pods */,
+				C2E59E8C83BB97CF2825D664 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F09160EC1B585073002E0867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09160EB1B585073002E0867 /* WatchKitCocoaPodsProblem.app */,
+				F09161001B585073002E0867 /* WatchKitCocoaPodsProblemTests.xctest */,
+				F09161141B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit Extension.appex */,
+				F091611E1B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F09160ED1B585073002E0867 /* WatchKitCocoaPodsProblem */ = {
+			isa = PBXGroup;
+			children = (
+				F09161341B5850A9002E0867 /* Header.h */,
+				F09160F01B585073002E0867 /* AppDelegate.swift */,
+				F09160F21B585073002E0867 /* ViewController.swift */,
+				F09160F41B585073002E0867 /* Main.storyboard */,
+				F09160F71B585073002E0867 /* Images.xcassets */,
+				F09160F91B585073002E0867 /* LaunchScreen.xib */,
+				F09160EE1B585073002E0867 /* Supporting Files */,
+			);
+			path = WatchKitCocoaPodsProblem;
+			sourceTree = "<group>";
+		};
+		F09160EE1B585073002E0867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F09160EF1B585073002E0867 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F09161031B585073002E0867 /* WatchKitCocoaPodsProblemTests */ = {
+			isa = PBXGroup;
+			children = (
+				F09161061B585073002E0867 /* WatchKitCocoaPodsProblemTests.swift */,
+				F09161041B585073002E0867 /* Supporting Files */,
+			);
+			path = WatchKitCocoaPodsProblemTests;
+			sourceTree = "<group>";
+		};
+		F09161041B585073002E0867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F09161051B585073002E0867 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F09161151B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F09161351B5850C0002E0867 /* Header.h */,
+				F09161181B58508D002E0867 /* InterfaceController.swift */,
+				F091611A1B58508D002E0867 /* Images.xcassets */,
+				F09161161B58508D002E0867 /* Supporting Files */,
+			);
+			path = "WatchKitCocoaPodsProblem WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F09161161B58508D002E0867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F09161171B58508D002E0867 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F09161221B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F09161251B58508D002E0867 /* Interface.storyboard */,
+				F09161281B58508D002E0867 /* Images.xcassets */,
+				F09161231B58508D002E0867 /* Supporting Files */,
+			);
+			path = "WatchKitCocoaPodsProblem WatchKit App";
+			sourceTree = "<group>";
+		};
+		F09161231B58508D002E0867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F09161241B58508D002E0867 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F09160EA1B585073002E0867 /* WatchKitCocoaPodsProblem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F091610A1B585073002E0867 /* Build configuration list for PBXNativeTarget "WatchKitCocoaPodsProblem" */;
+			buildPhases = (
+				3A3B2C404FE86A16CA489390 /* Check Pods Manifest.lock */,
+				F09160E71B585073002E0867 /* Sources */,
+				F09160E81B585073002E0867 /* Frameworks */,
+				F09160E91B585073002E0867 /* Resources */,
+				F09161331B58508D002E0867 /* Embed App Extensions */,
+				1B40791DA69797AFFEA70068 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F091612B1B58508D002E0867 /* PBXTargetDependency */,
+			);
+			name = WatchKitCocoaPodsProblem;
+			productName = WatchKitCocoaPodsProblem;
+			productReference = F09160EB1B585073002E0867 /* WatchKitCocoaPodsProblem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F09160FF1B585073002E0867 /* WatchKitCocoaPodsProblemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F091610D1B585073002E0867 /* Build configuration list for PBXNativeTarget "WatchKitCocoaPodsProblemTests" */;
+			buildPhases = (
+				F09160FC1B585073002E0867 /* Sources */,
+				F09160FD1B585073002E0867 /* Frameworks */,
+				F09160FE1B585073002E0867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09161021B585073002E0867 /* PBXTargetDependency */,
+			);
+			name = WatchKitCocoaPodsProblemTests;
+			productName = WatchKitCocoaPodsProblemTests;
+			productReference = F09161001B585073002E0867 /* WatchKitCocoaPodsProblemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F09161131B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09161301B58508D002E0867 /* Build configuration list for PBXNativeTarget "WatchKitCocoaPodsProblem WatchKit Extension" */;
+			buildPhases = (
+				F09161101B58508D002E0867 /* Sources */,
+				F09161111B58508D002E0867 /* Frameworks */,
+				F09161121B58508D002E0867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09161211B58508D002E0867 /* PBXTargetDependency */,
+			);
+			name = "WatchKitCocoaPodsProblem WatchKit Extension";
+			productName = "WatchKitCocoaPodsProblem WatchKit Extension";
+			productReference = F09161141B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		F091611D1B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F091612D1B58508D002E0867 /* Build configuration list for PBXNativeTarget "WatchKitCocoaPodsProblem WatchKit App" */;
+			buildPhases = (
+				F091611C1B58508D002E0867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchKitCocoaPodsProblem WatchKit App";
+			productName = "WatchKitCocoaPodsProblem WatchKit App";
+			productReference = F091611E1B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F09160E31B585073002E0867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Bendrix Bailey";
+				TargetAttributes = {
+					F09160EA1B585073002E0867 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F09160FF1B585073002E0867 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F09160EA1B585073002E0867;
+					};
+					F09161131B58508D002E0867 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F091611D1B58508D002E0867 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = F09160E61B585073002E0867 /* Build configuration list for PBXProject "WatchKitCocoaPodsProblem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F09160E21B585073002E0867;
+			productRefGroup = F09160EC1B585073002E0867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F09160EA1B585073002E0867 /* WatchKitCocoaPodsProblem */,
+				F09160FF1B585073002E0867 /* WatchKitCocoaPodsProblemTests */,
+				F09161131B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit Extension */,
+				F091611D1B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09160E91B585073002E0867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09160F61B585073002E0867 /* Main.storyboard in Resources */,
+				F09160FB1B585073002E0867 /* LaunchScreen.xib in Resources */,
+				F09160F81B585073002E0867 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09160FE1B585073002E0867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09161121B58508D002E0867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F091611B1B58508D002E0867 /* Images.xcassets in Resources */,
+				F091611F1B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F091611C1B58508D002E0867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09161271B58508D002E0867 /* Interface.storyboard in Resources */,
+				F09161291B58508D002E0867 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B40791DA69797AFFEA70068 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A3B2C404FE86A16CA489390 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F09160E71B585073002E0867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09160F31B585073002E0867 /* ViewController.swift in Sources */,
+				F09160F11B585073002E0867 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09160FC1B585073002E0867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09161071B585073002E0867 /* WatchKitCocoaPodsProblemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09161101B58508D002E0867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09161191B58508D002E0867 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F09161021B585073002E0867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09160EA1B585073002E0867 /* WatchKitCocoaPodsProblem */;
+			targetProxy = F09161011B585073002E0867 /* PBXContainerItemProxy */;
+		};
+		F09161211B58508D002E0867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F091611D1B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit App */;
+			targetProxy = F09161201B58508D002E0867 /* PBXContainerItemProxy */;
+		};
+		F091612B1B58508D002E0867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09161131B58508D002E0867 /* WatchKitCocoaPodsProblem WatchKit Extension */;
+			targetProxy = F091612A1B58508D002E0867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F09160F41B585073002E0867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09160F51B585073002E0867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F09160F91B585073002E0867 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09160FA1B585073002E0867 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F09161251B58508D002E0867 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09161261B58508D002E0867 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F09161081B585073002E0867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = WatchKitCocoaPodsProblem/Header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+			};
+			name = Debug;
+		};
+		F09161091B585073002E0867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = WatchKitCocoaPodsProblem/Header.h;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F091610B1B585073002E0867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351B6F55AFBA713928423C35 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchKitCocoaPodsProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F091610C1B585073002E0867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A717E5281298DDC846E72F1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchKitCocoaPodsProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F091610E1B585073002E0867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchKitCocoaPodsProblemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchKitCocoaPodsProblem.app/WatchKitCocoaPodsProblem";
+			};
+			name = Debug;
+		};
+		F091610F1B585073002E0867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchKitCocoaPodsProblemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchKitCocoaPodsProblem.app/WatchKitCocoaPodsProblem";
+			};
+			name = Release;
+		};
+		F091612E1B58508D002E0867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchKitCocoaPodsProblem_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchKitCocoaPodsProblem WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		F091612F1B58508D002E0867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchKitCocoaPodsProblem_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchKitCocoaPodsProblem WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		F09161311B58508D002E0867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchKitCocoaPodsProblem WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F09161321B58508D002E0867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchKitCocoaPodsProblem WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F09160E61B585073002E0867 /* Build configuration list for PBXProject "WatchKitCocoaPodsProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09161081B585073002E0867 /* Debug */,
+				F09161091B585073002E0867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F091610A1B585073002E0867 /* Build configuration list for PBXNativeTarget "WatchKitCocoaPodsProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F091610B1B585073002E0867 /* Debug */,
+				F091610C1B585073002E0867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F091610D1B585073002E0867 /* Build configuration list for PBXNativeTarget "WatchKitCocoaPodsProblemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F091610E1B585073002E0867 /* Debug */,
+				F091610F1B585073002E0867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F091612D1B58508D002E0867 /* Build configuration list for PBXNativeTarget "WatchKitCocoaPodsProblem WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F091612E1B58508D002E0867 /* Debug */,
+				F091612F1B58508D002E0867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09161301B58508D002E0867 /* Build configuration list for PBXNativeTarget "WatchKitCocoaPodsProblem WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09161311B58508D002E0867 /* Debug */,
+				F09161321B58508D002E0867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F09160E31B585073002E0867 /* Project object */;
+}

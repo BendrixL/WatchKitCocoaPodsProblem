@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0640"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F091611D1B58508D002E0867"
+               BuildableName = "WatchKitCocoaPodsProblem WatchKit App.app"
+               BlueprintName = "WatchKitCocoaPodsProblem WatchKit App"
+               ReferencedContainer = "container:WatchKitCocoaPodsProblem.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F09161131B58508D002E0867"
+               BuildableName = "WatchKitCocoaPodsProblem WatchKit Extension.appex"
+               BlueprintName = "WatchKitCocoaPodsProblem WatchKit Extension"
+               ReferencedContainer = "container:WatchKitCocoaPodsProblem.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F09160EA1B585073002E0867"
+               BuildableName = "WatchKitCocoaPodsProblem.app"
+               BlueprintName = "WatchKitCocoaPodsProblem"
+               ReferencedContainer = "container:WatchKitCocoaPodsProblem.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F091611D1B58508D002E0867"
+            BuildableName = "WatchKitCocoaPodsProblem WatchKit App.app"
+            BlueprintName = "WatchKitCocoaPodsProblem WatchKit App"
+            ReferencedContainer = "container:WatchKitCocoaPodsProblem.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/WatchKitCocoaPodsProblem">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F091611D1B58508D002E0867"
+            BuildableName = "WatchKitCocoaPodsProblem WatchKit App.app"
+            BlueprintName = "WatchKitCocoaPodsProblem WatchKit App"
+            ReferencedContainer = "container:WatchKitCocoaPodsProblem.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F091611D1B58508D002E0867"
+            BuildableName = "WatchKitCocoaPodsProblem WatchKit App.app"
+            BlueprintName = "WatchKitCocoaPodsProblem WatchKit App"
+            ReferencedContainer = "container:WatchKitCocoaPodsProblem.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/WatchKitCocoaPodsProblem">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F091611D1B58508D002E0867"
+            BuildableName = "WatchKitCocoaPodsProblem WatchKit App.app"
+            BlueprintName = "WatchKitCocoaPodsProblem WatchKit App"
+            ReferencedContainer = "container:WatchKitCocoaPodsProblem.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F091611D1B58508D002E0867"
+            BuildableName = "WatchKitCocoaPodsProblem WatchKit App.app"
+            BlueprintName = "WatchKitCocoaPodsProblem WatchKit App"
+            ReferencedContainer = "container:WatchKitCocoaPodsProblem.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
